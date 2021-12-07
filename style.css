@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    padding: 2rem;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    text-align: center;
+}
+h1{
+    color: hsl(234, 12%, 34%);
+    font-size: 1.44rem;
+    text-align: center;
+}
+#first-h{
+    font-weight: 200;
+}
+#second-h{
+    font-weight: 600;
+}
+header p{
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5rem;
+}
+h2{
+    margin-bottom: 0.6rem;
+    color: hsl(234, 12%, 34%);
+}
+img{
+    float: right;
+    margin-top: 1.5rem;
+}
+.cadx{
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-bottom: 1.5rem;
+    height: 16rem;
+    width: 97%;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: auto;
+    margin-right: auto
+}
+.card p{
+    line-height: 1.5rem;
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+#first-card{
+    border-top: 0.3rem solid hsl(180, 62%, 55%);
+}
+#second-card{
+    border-top:0.3rem solid hsl(0, 78%, 62%);
+}
+#third-card{
+    border-top:0.3rem solid hsl(34, 97%, 64%);
+}
+#fourth-card{
+    border-top-width: 0.3rem;
+    border-top-style: solid;
+    border-top-color: hsl(212, 61%, 39%);
+}
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+@media screen and (min-width:600px){
+    .cadx{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .cadx{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    main{
+        max-width: 1440px;
+        margin: 3rem auto;
+    }
+    .card{
+        display: flex;
+        max-width: 100%;
+        padding: auto;  
+    }
+    .cadx{
+        width: 20rem;
+        max-width: 100%;
+    }
+    #swi{
+        display: flex;
+        flex-direction: column;
+        margin: auto -7rem auto -7rem;
+    }
+    header{
+        text-align: center;
+    }
+    .cadx{
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    #first-card{
+        margin-top: 9rem;
+    }
+    #fourth-card{
+        margin-top: 9rem;
+    }
+    .attribution{
+        text-align: center;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
