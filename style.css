@@ -89,7 +89,7 @@ img{
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
     main{
         max-width: 1440px;
         margin: 3rem auto;
