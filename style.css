@@ -79,17 +79,32 @@ img{
 
 @media screen and (min-width:400px){
     .cadx{
+        width: 98%;
+    }
+}
+@media screen and (min-width:500px){
+    .cadx{
+        width: 75%;
+    }
+}
+@media screen and (min-width:600px){
+    .cadx{
         width: 60%;
     }
 }
 
 @media screen and (min-width:700px) {
     .cadx{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 800px){
+    .cadx{
         width: 45%;
     }
 }
 
-@media screen and (min-width:960px) {
+@media screen and (min-width:1200px) {
     main{
         max-width: 1440px;
         margin: 3rem auto;
@@ -124,7 +139,7 @@ img{
     .attribution{
         text-align: center;
     }
-}    
+}   
 
 
 
