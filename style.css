@@ -77,19 +77,19 @@ img{
     text-decoration: none;
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:400px){
     .cadx{
         width: 60%;
     }
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:700px) {
     .cadx{
         width: 45%;
     }
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:960px) {
     main{
         max-width: 1440px;
         margin: 3rem auto;
